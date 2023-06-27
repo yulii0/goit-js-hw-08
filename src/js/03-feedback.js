@@ -21,6 +21,7 @@ function onSubmit(evt) {
   console.dir(JSON.parse(localStorage.getItem(LOCALSTORAGE_KEY)));
 
   feedbackForm.reset();
+  localStorage.clear();
 }
 
 function gettingDataFromLocalCtorage() {
